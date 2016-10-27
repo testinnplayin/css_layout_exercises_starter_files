@@ -1,3 +1,45 @@
+.container {
+	height: 500px;
+	width: 800px;
+	margin: 50px auto;
+	font-size: 0;
+}
+
 .box {
 	border: 1px solid black;
+	display: inline-block;
+
+}
+
+.green,
+.blue {
+	height: 200px;
+	width: 50%;
+}
+
+.green {
+	background-color: green;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.gray,
+.black,
+.yellow {
+	height: 300px;
+	width: 33.33%;
+}
+
+.gray {
+	background-color: gray;
+}
+
+.black {
+	background-color: black;
+}
+
+.yellow {
+	background-color: yellow;
 }

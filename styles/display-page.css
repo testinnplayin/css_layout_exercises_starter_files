@@ -27,7 +27,7 @@
 
 .gray,
 .black,
-.yellow {
+.orange {
 	height: 300px;
 	width: 33.33%;
 }
@@ -40,6 +40,6 @@
 	background-color: black;
 }
 
-.yellow {
-	background-color: yellow;
+.orange {
+	background-color: orange;
 }

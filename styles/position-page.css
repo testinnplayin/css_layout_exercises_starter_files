@@ -34,12 +34,18 @@
 
 /* MAIN STYLES*/
 
-main {
+body {
 	background: url(../images/outerspace_landscape.jpeg) no-repeat center center fixed;
 	background-size: cover;
+}
+
+main {
+	padding-top: 50px;	
 	height: 750px;
 	width: 100%;
 }
+
+
 
 /* GREEN BOX*/
 
@@ -47,29 +53,27 @@ main {
 	border: 10px dotted green;
     height: 300px;
     width: 600px;
-    margin: 0 auto;
-    position: absolute;
-    right: 2px;
-    left: 2px;
-    top: 200px;
+    margin: 150px auto;
+    position: relative;
 }
 
 
 
 /* DOG and CAT IMAGES*/
 
-.cat {
+.cat,
+.dog {
 	height:200px;
 	width: 200px;
-	position: relative;
-	top: 100px;
-	left: 500px;
+	position: absolute;
+}
+
+.cat {
+	top: -75px;
+	left: -75px;
 }
 
 .dog {
-	height: 200px;
-	width: 200px;
-	position: relative;
-	top: 400px;
-	left: 900px;
+	bottom: -120px;
+	right: -80px;
 }

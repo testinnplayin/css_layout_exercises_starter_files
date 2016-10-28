@@ -16,14 +16,17 @@
 	margin-top: 5px;
 }
 
-.nav ul {
+.nav ul,
+.nav ul li {
 	display: inline-block;
+}
+
+.nav ul {
 	vertical-align: top;
 }
 
 .nav ul li {
 	list-style: none;
-	display: inline-block;
 }
 
 .nav ul li::after {
@@ -32,7 +35,7 @@
 
 
 
-/* MAIN STYLES*/
+/* MAIN and GENERAL STYLES*/
 
 body {
 	background: url(../images/outerspace_landscape.jpeg) no-repeat center center fixed;

@@ -34,6 +34,13 @@
 
 /* MAIN STYLES*/
 
+main {
+	background: url(../images/outerspace_landscape.jpeg) no-repeat center center fixed;
+	background-size: cover;
+	height: 750px;
+	width: 100%;
+}
+
 /* GREEN BOX*/
 
 .green-box {

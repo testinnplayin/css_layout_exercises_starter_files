@@ -32,6 +32,8 @@
 
 
 
+/* MAIN STYLES*/
+
 /* GREEN BOX*/
 
 .green-box {
@@ -45,3 +47,14 @@
     top: 200px;
 }
 
+
+
+/* DOG and CAT IMAGES*/
+
+.cat {
+	height:200px;
+	width: 200px;
+	position: absolute;
+	left: 500px;
+	bottom: 225px;
+}
